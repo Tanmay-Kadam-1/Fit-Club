@@ -57,3 +57,18 @@
 	transform: translateY(-0.7rem);
 	transition: 0.7s;
 }
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+	.programs-header {
+		flex-direction: column;
+		gap: 1rem;
+		font-size: x-large;
+		align-items: center;
+		justify-content: center;
+		margin-top: 2rem;
+	}
+	.programs-catagories {
+		flex-direction: column;
+	}
+}

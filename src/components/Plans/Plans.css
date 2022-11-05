@@ -86,3 +86,13 @@
 	right: 0;
 	top: 10rem;
 }
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+	.plans {
+		flex-direction: column;
+	}
+	.plans__container {
+		margin-top: 0;
+	}
+}
